@@ -1,0 +1,6 @@
+- name: DbServer playbook
+  hosts: dbservers
+  tasks:
+    - name: Running task on database servers
+      debug:
+        msg: "DB Server Setup Successful!"
