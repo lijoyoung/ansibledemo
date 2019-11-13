@@ -1,0 +1,6 @@
+- name: WebServer playbook
+  hosts: webservers
+  tasks:
+    - name: Running task on webservers
+      debug:
+        msg: "Web Server Setup Successful!"
