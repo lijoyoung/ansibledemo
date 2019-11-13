@@ -1,0 +1,6 @@
+- name: Test playbook
+  hosts: all
+  tasks:
+    - name: Running task-1
+      debug:
+        msg: "Test Successful!"
